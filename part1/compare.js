@@ -1,5 +1,4 @@
 //Write a JavaScript program to compare two objects to determine if the first one contains equivalent property values to the second one.
-//#Source https://bit.ly/2neWfJ2
 const matches = (obj, source) =>
   Object.keys(source).every(
     (key) => obj.hasOwnProperty(key) && obj[key] === source[key]
