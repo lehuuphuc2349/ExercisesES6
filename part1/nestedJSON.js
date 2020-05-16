@@ -17,3 +17,4 @@ const dog = {
   img: "dog.png",
 };
 console.log(dig(dog, "img"));
+console.log(dig(data, "level2"));
