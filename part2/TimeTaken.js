@@ -6,3 +6,4 @@ console.log("Time Taken: " + timeTaken(() => Math.pow(2, 10)) + "ms");
 console.log("Time Taken: " + timeTaken(() => Math.round(10.1)) + "ms");
 console.log("Time Taken: " + timeTaken(() => Math.sqrt(12)) + "ms");
 console.log("Time Taken: " + timeTaken(() => Math.pow(2, 10)) + "ms");
+console.log("Time taken: " + timeTaken(() => Math.pow(4, 3)));
