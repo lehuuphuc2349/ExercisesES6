@@ -16,5 +16,12 @@ const dog = {
   status: "suceess",
   img: "dog.png",
 };
+const proprety = {
+  name: "le Huu Phuc",
+  age: 21,
+  eyeColor: "Blue",
+};
 console.log(dig(dog, "img"));
 console.log(dig(data, "level2"));
+console.log(dig(proprety, "name"));
+console.log(dig(proprety, "eyeColor"));
