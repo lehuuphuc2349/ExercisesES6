@@ -9,3 +9,7 @@ function Foo() {
 Foo.prototype.c = 3;
 console.log(chekFoo(new Foo(), true));
 console.log(chekFoo(new Foo()));
+
+const groupBy = (arr,fn) => arr.map(typeof fn === "function" ? 
+   fn : val => val[fn]
+).reduce((acc,val,i) => acc[val] = (acc[val[i]] || cconcat))
