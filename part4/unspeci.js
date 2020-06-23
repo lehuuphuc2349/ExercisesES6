@@ -18,3 +18,11 @@ const data = [
   },
 ];
 console.log(unspeci(data, ["id", "name"], (item) => item.age > 20));
+
+const numberPlay = (number) => {
+  if (number % 2 === 0 && number !== null) {
+    return "Ashishgup";
+  } else {
+    return "FastestFinger";
+  }
+};
